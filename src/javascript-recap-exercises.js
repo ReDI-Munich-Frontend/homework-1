@@ -87,7 +87,7 @@ function filterByEven(array) {
  * Given an array which contains objects
  * with name and status
  * write a function
- * which returns a new array which only objects where status equals 'accepted' 
+ * which returns a new array with only objects where status equals 'accepted' 
 * The solution must use `filter`.
 
  * i.e:
@@ -109,7 +109,7 @@ function filterByAccepted(array) {
  * write a function
  * which counts all values in the array
  * and returns the sum
- * The solution must use `forEach`.
+ * The solution must use `useReduce`.
  *
  * i.e:
  * const numbers =[1,2,3]
@@ -125,6 +125,7 @@ function sumReduce(array) {
  * with name and ids
  * write a function
  * which returns a new object where id is the key
+ * The solution must use `useReduce`.
  *
  * i.e:
  * const employees = [
