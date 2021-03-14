@@ -19,7 +19,7 @@
 - ![image](https://user-images.githubusercontent.com/1830601/111064583-28007e00-84b5-11eb-9837-c9c020304ae3.png)
 - You can click on details to see the test results in the browser
 - ![image](https://user-images.githubusercontent.com/1830601/111064606-46667980-84b5-11eb-951a-4f5496a855b0.png)
-- If everything looks fine please just assign a teacher for review. They will get a notification and get back to you. 
+- If everything looks fine please just assign a teacher for review in Google Classroom. They will get a notification and get back to you. 
 - ![image](https://user-images.githubusercontent.com/1830601/111064628-5da56700-84b5-11eb-9c02-b2d98b1c57ad.png)
 
 
