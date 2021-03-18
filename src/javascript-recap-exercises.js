@@ -103,13 +103,13 @@ function filterByAccepted(array) {
   // your code here  ;
 }
 
-/** 6. Exercise: Counting using Array.useReduce()
+/** 6. Exercise: Counting using Array.reduce()
  *
  * Given an array with numbers
  * write a function
  * which counts all values in the array
  * and returns the sum
- * The solution must use `useReduce`.
+ * The solution must use `reduce`.
  *
  * i.e:
  * const numbers =[1,2,3]
@@ -119,20 +119,20 @@ function sumReduce(array) {
   // your code here  ;
 }
 
-/** 7. Exercise: Transforming using Array.useReduce()
+/** 7. Exercise: Transforming using Array.reduce()
  *
  * Given an array with objects
  * with name and ids
  * write a function
  * which returns a new object where id is the key
- * The solution must use `useReduce`.
+ * The solution must use `reduce`.
  *
  * i.e:
  * const employees = [
  *  {name: 'Alice', id: 3},
  *  {name: 'Bob', id: 7}
  *]
- * reduceArrayToObject(numbers) should return
+ * reduceArrayToObject(array) should return
  *
  * {
  *     3: { name: "Alice", id: 3 },
