@@ -149,5 +149,6 @@ export {
   fullNameMap,
   filterByEven,
   filterByAccepted,
+  sumReduce,
   reduceArrayToObject,
 };
