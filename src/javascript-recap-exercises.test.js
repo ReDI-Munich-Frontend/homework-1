@@ -4,6 +4,7 @@ import {
   fullNameMap,
   filterByEven,
   filterByAccepted,
+  sumReduce,
   reduceArrayToObject,
 } from "./javascript-recap-exercises";
 
@@ -70,13 +71,13 @@ describe("6. Exercise: Counting using Array.useReduce()", () => {
   it("given [1,2,3] it should return 6", () => {
     const fixture = [1, 2, 3];
 
-    expect(sumForEach(fixture)).toEqual(6);
+    expect(sumReduce(fixture)).toEqual(6);
   });
 
   it("given [5, 6, 3, 7, -1, 10, 12] it should return 42", () => {
     const fixture = [5, 6, 3, 7, -1, 10, 12];
 
-    expect(sumForEach(fixture)).toEqual(42);
+    expect(sumReduce(fixture)).toEqual(42);
   });
 });
 
